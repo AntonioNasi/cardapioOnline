@@ -1,0 +1,81 @@
+*{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: sans-serif;
+        }
+        header{
+            background-image: linear-gradient(45deg, rgb(222, 162, 240), pink, pink, rgb(181, 181, 247));
+        }
+        header .logo{
+            max-width: 100px;
+            margin: auto;
+            padding: 20px 0px;
+        }
+        header .logo img{
+            width: 100%;
+        }
+        header .descreve{
+            width: 90%;
+            margin: auto;
+            padding: 10px 0px 20px;
+        }
+        header .descreve h1{
+            text-align: center;
+            font-family: 'Aladin', cursive;
+            letter-spacing: 5px;
+        }
+        header .descreve p{
+            text-align: center;
+            font-weight: 100;
+            font-size: 14px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        .containerCardapio .cardapio{
+            width: 93%;
+            margin: auto;
+        }
+        .containerCardapio .cardapio .item{
+            height: auto;
+            padding: 10px 0px;
+            margin: 10px 0px;
+            background-color: darkorange;
+        }
+        .containerCardapio .cardapio .item h2{
+            text-align: center;
+            font-size: 16px;
+        }
+        .containerCardapio .cardapio .pratos #fechar0{
+            text-align: center;
+            font-size: 12px;
+            color: white;
+            background-color: black;
+            margin: auto;
+            border-radius: 20px;
+            padding: 5px 10px;
+            display: none;
+        }
+        .containerCardapio .cardapio .pratos{
+            width: 100%;
+            margin: auto;
+            display: none;
+        }
+        .containerCardapio .cardapio .pratos .content{
+          display: flex;
+        }
+        .containerCardapio .cardapio .pratos .content .img{
+          width: 30%;
+        }
+        .containerCardapio .cardapio .pratos .content .img img{
+          width: 300px;
+          height: 300px;
+          border-radius:100%;
+        }
+        
+        .containerCardapio .cardapio .pratos .content .contentDes{
+          width: 70%;
+          padding: 0px 0px 0px 20px;
+        }
