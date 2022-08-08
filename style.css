@@ -5,9 +5,12 @@
         }
         body{
             font-family: sans-serif;
+            background-image: url(https://img.freepik.com/free-vector/modern-soft-colorful-watercolor-texture-elegant-background-vector_1055-12706.jpg);
+            background-repeat: repeat-y;
+            background-size: cover;
         }
         header{
-            background-image: linear-gradient(45deg, rgb(222, 162, 240), pink, pink, rgb(181, 181, 247));
+            background-image: linear-gradient(45deg, #E5FFCE, #C1FFFF, #C1FFFF, #E5FFCE);
         }
         header .logo{
             max-width: 100px;
@@ -17,21 +20,22 @@
         header .logo img{
             width: 100%;
         }
-        header .descreve{
+        header .des{
             width: 90%;
             margin: auto;
             padding: 10px 0px 20px;
         }
-        header .descreve h1{
+        header .des h1{
             text-align: center;
             font-family: 'Aladin', cursive;
-            letter-spacing: 5px;
+            letter-spacing: 3px;
+            font-size: 28px;
         }
-        header .descreve p{
+        header .des p{
             text-align: center;
             font-weight: 100;
             font-size: 14px;
-            letter-spacing: 3px;
+            letter-spacing: 1px;
             text-transform: uppercase;
         }
         .containerCardapio .cardapio{
@@ -42,18 +46,21 @@
             height: auto;
             padding: 10px 0px;
             margin: 10px 0px;
-            background-color: darkorange;
+            background-color: #FCFC9C;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
         }
         .containerCardapio .cardapio .item h2{
             text-align: center;
-            font-size: 16px;
+            font-size: 24px;
+            letter-spacing: 1px;
+            font-family: 'Aladin', cursive;
         }
-        .containerCardapio .cardapio .pratos #fechar0{
+        .containerCardapio .cardapio .pratos #fechar0, #fechar1{
             text-align: center;
             font-size: 12px;
             color: white;
             background-color: black;
-            margin: auto;
+            margin: 15px auto;
             border-radius: 20px;
             padding: 5px 10px;
             display: none;
@@ -64,18 +71,31 @@
             display: none;
         }
         .containerCardapio .cardapio .pratos .content{
-          display: flex;
+            border-bottom:solid 1px rgba(0, 0, 0, .5);
+            padding-bottom: 15px;
         }
         .containerCardapio .cardapio .pratos .content .img{
-          width: 30%;
+          max-width: 200px;
+          margin: auto;
         }
         .containerCardapio .cardapio .pratos .content .img img{
-          width: 300px;
-          height: 300px;
-          border-radius:100%;
+          width: 100%;
+          border-radius:20px;
+          margin: 20px 0px;
         }
         
         .containerCardapio .cardapio .pratos .content .contentDes{
-          width: 70%;
-          padding: 0px 0px 0px 20px;
+          width: 100%;
+          margin:auto;
+          padding: 0px 0px 0px 0px;
+        }
+        .containerCardapio .cardapio .pratos .content .contentDes h2{
+            font-family: 'Aladin', cursive;
+            letter-spacing: 1px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .containerCardapio .cardapio .pratos .content .contentDes p{
+            text-align: center;
+            line-height: 1.5;
         }
